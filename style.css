@@ -7,7 +7,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Times New Roman', Times, serif, 'poppins';
+    font-family: 'Roboto Slab', 'serif','poppins';
 
 }
 
@@ -53,7 +53,7 @@ nav ul li a:hover {
 .left {
     font-size: 1.5rem;
     color: white;
-    font-family: cursive, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -72,7 +72,7 @@ nav ul li a:hover {
 
     color: white;
 
-    font-family: 'Tangerine'cursive, Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3.9rem;
     font-weight: bolder;
 }
@@ -140,7 +140,7 @@ main hr {
 .thirdSection {
     max-width: 95vw;
     margin: auto;
-    height: 100vh;
+    height: 70vh;
     font-family: 'Tangerine', cursive;
     text-transform: uppercase;
     font-style: italic;
@@ -247,4 +247,13 @@ main hr {
     font-family: monospace;
     text-transform: capitalize;
     text-decoration: none;
+}
+
+.fourthSection {
+    max-width: 95vw;
+    margin: auto;
+    height: 70vh;
+    font-family: 'Tangerine', cursive;
+    text-transform: uppercase;
+    font-style: italic;
 }
