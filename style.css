@@ -7,11 +7,11 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif, 'poppins';
 
 }
 
-.logo img{
+.logo img {
     display: inline;
     width: 104px;
     height: fit-content;
@@ -53,7 +53,7 @@ nav ul li a:hover {
 .left {
     font-size: 1.5rem;
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: cursive, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -71,8 +71,9 @@ nav ul li a:hover {
 .leftSection {
 
     color: white;
-    font-family: 'Tangerine', cursive;
-    font-size: 3rem;
+
+    font-family: 'Tangerine'cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.9rem;
     font-weight: bolder;
 }
 
@@ -95,7 +96,7 @@ nav ul li a:hover {
 .secondSection {
     max-width: 95vw;
     margin: auto;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine', Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     font-style: italic;
 
