@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.logo img{
+    display: inline;
+    width: 104px;
+    height: fit-content;
+    padding-top: 60px;
+    margin-top: -14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height: 60px;
+    background-color: #e63946;
+    text-transform: uppercase;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 20px;
+}
+
+.firstSection Div {
+    width: 45%;
+
+}
+
+.leftSection {
+
+    color: white;
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.rightSection {
+    color: whitesmoke;
+    width: fit-content;
+
+}
+
+.purple:hover {
+    color: green;
+}
+
+#element {
+    color: #5e2750;
+
+}
+
+/* second section start */
+.secondSection {
+    max-width: 95vw;
+    margin: auto;
+    font-family: 'Tangerine', cursive;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1:hover {
+    color: violet;
+    font-size: 2rem;
+}
+
+.secondSection p {
+    color: blanchedalmond;
+    text-transform: capitalize;
+}
+
+
+.secondSection p:hover {
+    color:
+        green;
+}
+
+main hr {
+    border: 0;
+    background: #5e2750;
+    height: 4px;
+    margin: 40px;
+}
+
+.company {
+    font-size: 1.5rem;
+    color: #e63946;
+}
+
+/* second section end */
+
+/* third section start  */
+.thirdSection {
+    max-width: 95vw;
+    margin: auto;
+    height: 100vh;
+    font-family: 'Tangerine', cursive;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.thirdSection .box {
+    background: white;
+    width: 80vw;
+    height: 3px;
+    margin: 80px;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 180PX;
+}
+
+/* first image box fro front end */
+.imagetop1 {
+    width: 300px;
+    position: relative;
+    /* margin: 84px -97px; */
+    top: 4rem;
+    left: -11rem;
+    display: flex;
+}
+
+.vertical-title {
+    position: relative;
+    top: 39px;
+    width: 228px;
+    color: red;
+    left: -142px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    left: -150px;
+    width: 250px;
+    font-size: small;
+    font-family: monospace;
+    text-transform: capitalize;
+
+
+}
+
+
+.imagetop2 {
+    position: relative;
+    top: 4.5rem;
+    left: -120px;
+    width: 250px;
+    color: violet;
+    display: flex;
+
+}
+
+.vertical-title2 {
+    position: relative;
+    top: 76px;
+    width: 228px;
+    color: red;
+    left: -100px;
+}
+
+.vertical-desc2 {
+    position: relative;
+    top: 84px;
+    left: -110px;
+    width: 280px;
+    font-size: small;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+
+
+.imagetop3 {
+    position: relative;
+    top: 4.5rem;
+    left: -120px;
+    width: 293px;
+    height: 184px;
+
+}
+
+.vertical-title3 {
+    position: relative;
+    top: 72px;
+    width: 228px;
+    color: red;
+    left: -100px;
+}
+
+.vertical-desc3 {
+    position: relative;
+    top: 84px;
+    left: -110px;
+    width: 368px;
+    font-size: small;
+    font-family: monospace;
+    text-transform: capitalize;
+    text-decoration: none;
+}
